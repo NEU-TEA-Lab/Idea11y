@@ -1,0 +1,45 @@
+{
+    "Challenges in User Experience: Analyzing Pain Points and Preferences": {
+        "children": {
+            "Identifying Challenges: Understanding Key Pain Points": {
+                "title": "Identifying Challenges: Understanding Key Pain Points",
+                "content": {
+                    "3458764601976780733": "What are the pain points?"
+                },
+                "childrenInfo": [
+                    {
+                        "id": "3458764601976780733",
+                        "x": -15936.768933057438,
+                        "y": -813.091108694146,
+                        "width": 368.15000000000003,
+                        "height": 421.8
+                    }
+                ]
+            },
+            "User Preferences: Unpacking Favorite and Least Favorite Features": {
+                "title": "User Preferences: Unpacking Favorite and Least Favorite Features",
+                "content": {
+                    "3458764604556176405": "what is user&#39;s least favorite feature?",
+                    "3458764604554983489": "what is use&#39;s favorite feature??"
+                },
+                "childrenInfo": [
+                    {
+                        "id": "3458764604556176405",
+                        "x": -18689.042574411273,
+                        "y": -1379.7620398753165,
+                        "width": 368.15000000000003,
+                        "height": 421.8
+                    },
+                    {
+                        "id": "3458764604554983489",
+                        "x": -19067.192574411274,
+                        "y": -957.9620398753169,
+                        "width": 368.15000000000003,
+                        "height": 421.8
+                    }
+                ]
+            }
+        },
+        "parentInfo": ""
+    }
+}

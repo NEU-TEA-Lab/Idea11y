@@ -1,0 +1,235 @@
+@import 'mirotone/dist/styles.css';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+#root {
+  width: 100%;
+  overflow: auto;
+  padding: var(--space-medium);
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sr-only,
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* New styles for cluster change message */
+.cluster-change-message {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-left: 3px solid #007bff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.cluster-change-message p {
+  margin: 0;
+  color: #444;
+}
+
+.voting-options {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  gap: 4px;
+}
+
+.voting-options button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.voting-options span {
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.button-primary:hover {
+  background-color: #0056b3;
+}
+
+.button-primary:active {
+  background-color: #004494;
+}
+
+.button-primary:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.clusters-section {
+  margin-top: 16px;
+}
+
+.info-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.info-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.info-modal button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.note-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.speak-button {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  padding: 3px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.speak-button:hover {
+  background: #f5f5f5;
+  border-color: #d0d0d0;
+}
+
+.note-text {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.ai-summary {
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-style: italic;
+  margin: 0;
+  font-size: 10px;
+}
+
+.ai-summary strong {
+  color: #666;
+}
+
+.user-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.setting-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-top: 32px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: black;
+  margin-top: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
